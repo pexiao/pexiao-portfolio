@@ -1,5 +1,6 @@
 import React from 'react'
 import profilePicture from '../assets/ProfilePicture.JPG';
+import portrait from '../assets/portrait.png'
 
 const About = () => {
   return (
@@ -12,8 +13,8 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="sm:text-left pb-8 pr-4 h-64 flex items-end">
-                    <img src={profilePicture} alt="Profile Picture" className='w-auto max-h-full rounded-full' />
+                <div className="sm:text-left pb-8 pr-4 h-72 flex items-end">
+                    <img src={portrait} alt="Profile Picture" className='w-auto max-h-full rounded-full' />
                 </div>
             </div>
 
