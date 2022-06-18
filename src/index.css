@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Lato]; 
+    }
+
+    li{
+        @apply px-4; 
+        @apply cursor-pointer; 
+    }
+
+    a {
+        @apply cursor-pointer;
+    }
+
+}
+
+@layer components {
+    .icon-wrapper {
+        @apply rounded-full p-2 flex justify-center items-center w-28 h-28 m-3 shadow-indigo-400 shadow-md hover:scale-110 duration-500  ; 
+    }
+
+    .icon-text-wrapper {
+        @apply my-2; 
+    }
+
+    
+}
+
+.content-div {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    height: 20rem;
+}
